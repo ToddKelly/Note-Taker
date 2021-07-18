@@ -18,7 +18,7 @@ const router = require('express').Router();
   // In each of the below cases, when a user submits form data (a JSON object)
   // ...the JSON is pushed to the routerropriate JavaScript array
   // (ex. User fills out a reservation request... this data is then sent to the server...
-  // Then the server saves the data to the tableData array)
+  // Then the server saves the data to the Data array)
   // ---------------------------------------------------------------------------
   router.post('/api/note', (req, res) => {
     // Note the code here. Our "server" will respond to requests and let users know if they have a note
